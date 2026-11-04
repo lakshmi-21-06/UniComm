@@ -1,0 +1,44 @@
+.venv/
+node_modules/
+dist/
+.env
+__pycache__/
+*.pyc
+backend/data/processed/
+backend/data/checkpoints/
+backend/data/uploads/
+
+# Additional virtual environments
+.venv-telugu/
+venv/
+
+# Python cache and test files
+.pytest_cache/
+.mypy_cache/
+*.pyo
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Environment and secret files
+.env.*
+!.env.example
+
+# Generated audio files
+*.mp3
+*.wav
+
+# Old backup files
+*.bak
+*.before_indic_routing
+*.backup.*
+
+# Generated TypeScript files
+*.tsbuildinfo
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+backend/cslrt_cleanup_backup/

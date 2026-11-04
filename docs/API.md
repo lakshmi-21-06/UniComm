@@ -1,0 +1,12 @@
+- `GET /api/health`
+- `GET /api/datasets`
+- `POST /api/datasets/configure`
+- `POST /api/datasets/inspect` with `{"dataset":"amrita"}` or `{"dataset":"isl_cslrt"}`
+- `POST /api/datasets/preprocess/amrita`
+- `POST /api/train` with `{"dataset":"amrita","epochs":10,"batch_size":16,"learning_rate":0.0005,"sequence_length":32}`
+- `GET /api/train/status`
+- `GET /api/evaluation`
+- `POST /api/sign/predict-video` multipart `file`
+- `POST /api/speech/transcribe` multipart `file`
+- `POST /api/translate` with `{"text":"Hello","source_language":"eng_Latn","target_language":"tel_Telu"}`
+- `POST /api/tts` with `{"text":"Hello","language":"en"}`
